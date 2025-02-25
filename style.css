@@ -1,0 +1,38 @@
+.section{
+    background-color: lightgray;
+    height:auto ;
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 2px;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+   
+}
+img{
+    height: 400px;
+    width: 400px;
+}
+.my{
+    font-family:cursive;
+}
+
+.resume{
+    text-align: center;
+    
+}
+.resume  ul{
+    list-style: none;
+}
+.resume h1{
+    font-family:cursive;
+}
+.footers{
+    text-align: center;
+}
