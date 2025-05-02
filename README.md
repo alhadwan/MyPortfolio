@@ -5,3 +5,9 @@ This is my personal portfolio website built with HTML, CSS, and Bootstrap. It sh
 - HTML5
 - CSS3
 - Bootstrap 5
+
+# Features
+- Responsive layout
+- Projects section
+- Contact & social links
+- Clean visual style
