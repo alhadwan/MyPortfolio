@@ -3,171 +3,241 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Hadwan</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
-    <title>Ali Hadwan</title>
+    
 </head>
 <body>
-    <section class="hero section">
-        <div class="description">
-            <div class="my-text introduction">
-                <h1>Ali Hadwan</h1>
-            </div>
-            <div>
-                <img src="./IMG_8246.jpg" alt="Ali Hadwan Profile Photo">
-            </div>
-             <div class="my-text background">
-                <h4>Full-Stack Developer</h4>
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="#">Ali Hadwan</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link active" href="#hero">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+              <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+              <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    
+    <section id="hero" class="hero section text-center py-5 bg-light">
+      <div class="container">
+        <h1 class="display-4 fw-bold">Ali Hadwan</h1>
+        <img src="./IMG_8246.jpg" alt="Ali Hadwan Profile Photo" class="rounded-circle my-3" width="200" height="200">
+        <h4 class="text-muted">Full-Stack Developer</h4>
+        <p class="lead">I’m a web developer passionate about building full-stack apps.</p>
+      </div>
     </section>
     <section class="showcases section">
        
         <div class="resume">
-           
-                <h1>OBJECTIVE</h1>
-                <h3>Motivated web development graduate skilled in React, Node.js, and PostgreSQL and JavaScript. Looking to contribute to a forward-thinking tech team where I can grow as a developer and help deliver high-quality, user-focused web applications.</h3>
+                <section class="section objective text-center">
+                  <h1>OBJECTIVE</h1>
+                  <blockquote class="blockquote p-3 bg-light border rounded">
+                    <p class="mb-0">
+                      Motivated web development graduate skilled in React, Node.js, PostgreSQL, and JavaScript. 
+                      Looking to contribute to a forward-thinking tech team where I can grow as a developer and deliver high-quality web applications.
+                    </p>
+                  </blockquote>
+                </section>
                 <hr/>
-                <!-- <h1>WORK EXPERIENCE</h1>
-                <hr/> -->
-                <h1>Education</h1>
-                <ul>
-                    <li><h4>Bachelor of Science in Computer Science</h4><h3>San Francisco State University, San Francisco, CA
-                        [Aug 2018] – [Dec 2024]
-                        <p>Originally enrolled as a Computer Engineering major; resumed studies in 2022 and completed as a Computer Science major.</p>
-                    </h3></li>
-                    <li><h4>Associate degree</h4><h3>City College of San Francisco, San Francisco, CA
-                    [Aug 2013] – [Dec 2018]
-                    </h3></li>
-                    <li><h4>High school Diploma</h4><h3>Galileo high school, San Francisco, CA
-                      [Aug 2010] – [Dec 2012]
-                    </h3></li>
-                </ul>
-                <hr/>
-                <h1>SKILLS</h1>
-                <ul>
-                    <li><h4>Programming Languages:</h4><h3>HTML, CSS(Grid and Flex), JavaScript, TypeScript, SQL</h3></li>
-                    <li><h4>Tools & Technologies:</h4><h3>Git, GitHub, MongoDB, PostgreSQL, Git, GitHub, Render, REST APIs</h3></li>
-                    <li><h4>Frameworks & Libraries:</h4><h3>React, Node.js, Bootstrap, Express.js, </h3></li>
-                    <li><h4>Operating Systems:</h4><h3>Windows, Linux, MacOS<h3></li>       
-                </ul>
-                <hr/>
-                <h1>PROJECTS</h1>
-                <div style="display: flex; flex-direction: row; gap: 20px; flex-wrap: nowrap; overflow-x: auto;">
-                    <div class="card" style="flex: 0 0 500px;">
+                <section id="education" class="section education text-center">
+                  <h1>EDUCATION</h1>
+                  <div class="row">
+                    <div class="col-md-4 mb-3">
+                      <div class="card h-100">
                         <div class="card-body">
-                          <h5 class="card-title"><strong>Book Notes App</strong></h5>
-                          <!-- <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6> -->
-                          <p class="card-text">A personal book-tracking web app that lets users log books they’ve read, rate them, and add notes. Book covers are displayed dynamically using the Open Library Covers API.</p>
-                          <a href="https://booknotes-cstr.onrender.com" class="card-link">Live Demo</a>
-                          <a href="https://github.com/alhadwan/BookNotes" class="card-link">GitHub Repo</a>
-                          <br/>
-                          <h5 class="card-title"><strong>Features</strong>
-                            <ol>
-                                <li>Add, edit, and delete books</li>
-                                <li>Rate books and track read date</li>
-                                <li>View real-time book covers via ISBN</li>
-                                <li>Sort entries by rating, title, or date</li>
-                              </ol>
-                          </h5>
+                          <h5 class="card-title">B.Sc. in Computer Science</h5>
+                          <p class="card-text">
+                            San Francisco State University<br>
+                            <small>Aug 2018 – Dec 2024</small><br>
+                            Originally enrolled in Computer Engineering, resumed studies in 2022 and completed as a CS major.
+                          </p>
                         </div>
+                      </div>
                     </div>
-                    <div class="card" style="flex: 0 0 500px;">
+                    <div class="col-md-4 mb-3">
+                      <div class="card h-100">
                         <div class="card-body">
-                          <h5 class="card-title"><strong>Blog App</strong></h5>
-                          <!-- <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6> -->
-                          <p class="card-text">A simple blog web app built with Node.js, Express, EJS, and Bootstrap. You can create, edit, and delete blog posts, all stored in a local JSON file..</p>
-                          <a href="https://blogweb-6dmm.onrender.com" class="card-link">Live Demo</a>
-                          <a href="https://github.com/alhadwan/BlogWeb" class="card-link">GitHub Repo</a>
-                          <br/>
-                          <h5 class="card-title"><strong>Features</strong>
-                            <ol>
-                                <li>Add, edit, and delete Blog</li>
+                          <h5 class="card-title">Associate Degree</h5>
+                          <p class="card-text">
+                            City College of San Francisco<br>
+                            <small>Aug 2013 – Dec 2018</small>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                      <div class="card h-100">
+                        <div class="card-body">
+                          <h5 class="card-title">High School Diploma</h5>
+                          <p class="card-text">
+                            Galileo High School, San Francisco<br>
+                            <small>Aug 2010 – Dec 2012</small>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <hr/>
+                <section id="skills" class="skills section">
+                  <h1>SKILLS</h1>
+                  <div class="row text-center">
+                    <div class="col-md-3">
+                      <h5><i class="bi bi-code-slash"></i> Languages</h5>
+                      <p>HTML, CSS, JavaScript, TypeScript, SQL</p>
+                    </div>
+                    <div class="col-md-3">
+                      <h5><i class="bi bi-layers"></i> Frameworks & Libraries</h5>
+                      <p>React, Node.js, Express, Bootstrap</p>
+                    </div>
+                    <div class="col-md-3">
+                      <h5><i class="bi bi-tools"></i> Tools & Platforms</h5>
+                      <p>Git, GitHub, Render, MongoDB, PostgreSQL</p>
+                    </div>
+                    <div class="col-md-3">
+                      <h5><i class="bi bi-laptop"></i> Operating Systems</h5>
+                      <p>Windows, MacOS, Linux</p>
+                    </div>
+                  </div>
+                </section>
+                <hr/>
+                <section id="projects" class="projects section py-5">
+                  <div class="container">
+                    <h1 class="text-center mb-5">PROJECTS</h1>
+                    <div class="row g-4">
+                
+                      <!-- Project 1 -->
+                      <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm">
+                          <div class="card-body">
+                            <h5 class="card-title"><strong>Book Notes App</strong></h5>
+                            <p class="card-text">A personal book-tracking web app that lets users log books they’ve read, rate them, and add notes. Book covers are displayed dynamically using the Open Library Covers API.</p>
+                            <a href="https://booknotes-cstr.onrender.com" class="card-link">Live Demo</a>
+                            <a href="https://github.com/alhadwan/BookNotes" class="card-link">GitHub</a>
+                            <ul class="mt-3">
+                              <li>Add, edit, and delete books</li>
+                              <li>Rate books and track read date</li>
+                              <li>View real-time book covers via ISBN</li>
+                              <li>Sort entries by rating, title, or date</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                        <!-- Project 2 -->
+                      <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm">
+                          <div class="card-body">
+                            <h5 class="card-title"><strong>Blog App</strong></h5>
+                            <p class="card-text">A simple blog web app built with Node.js, Express, EJS, and Bootstrap. You can create, edit, and delete blog posts, all stored in a local JSON file.</p>
+                            <a href="https://blogweb-6dmm.onrender.com" class="card-link">Live Demo</a>
+                            <a href="https://github.com/alhadwan/BlogWeb" class="card-link">GitHub</a>
+                            <ul class="mt-3">
+                               <li>Add, edit, and delete Blog</li>
                                 <li>Display all posts in a styled card layout</li>
                                 <li>Automatically saves data to posts.json</li>
-                              </ol>
-                          </h5>
+                            </ul>
+                          </div>
                         </div>
-                    </div>
-                    <div class="card" style="flex: 0 0 700px;">
-                        <div class="card-body">
-                          <h5 class="card-title"><strong>Dice Game</strong> </h5>
-                          <!-- <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6> -->
-                          <p class="card-text">2-player dice game built with HTML, CSS, and JavaScript. 2-player dice game built with HTML, CSS, and JavaScript. the Players enter their names and the game declares a winner based on which dice rolls higher.</p>
-                          <a href="https://alhadwan.github.io/DiceGame/" class="card-link">Live Demo</a>
-                          <a href="https://github.com/alhadwan/DiceGame" class="card-link">GitHub Repo</a>
-                          <br/>
-                          <h5 class="card-title"><strong>Features</strong>
-                            <ol>
-                                <li>Two input fields for players to enter their names</li>
-                                <li>“Roll” button to play and replay the game</li>
-                                <li>Input validation to ensure both names are provided before rolling</li>
-                                <li>Rolls two dice and displays a personalized winner or draw result</li>
-                              </ol>
-                          </h5>
+                      </div>
+                      <!-- Project 3 -->
+                      <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm">
+                          <div class="card-body">
+                            <h5 class="card-title"><strong>Dice Game</strong></h5>
+                            <p class="card-text">2-player dice game built with HTML, CSS, and JavaScript. 2-player dice game built with HTML, CSS, and JavaScript. the Players enter their names and the game declares a winner based on which dice rolls higher.</p>
+                            <a href="https://alhadwan.github.io/DiceGame/" class="card-link">Live Demo</a>
+                            <a href="https://github.com/alhadwan/DiceGame" class="card-link">GitHub</a>
+                            <ul class="mt-3">
+                              <li>Two input fields for players to enter their names</li>
+                              <li>“Roll” button to play and replay the game</li>
+                              <li>Input validation to ensure both names are provided before rolling</li>
+                              <li>Rolls two dice and displays a personalized winner or draw result</li>
+                            </ul>
+                          </div>
                         </div>
-                    </div>
-                    <div class="card" style="flex: 0 0 600px;">
-                      <div class="card-body">
-                        <h5 class="card-title"><strong>Simon Game</strong> </h5>
-                        <!-- <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6> -->
-                        <p class="card-text">A web-based version of the classic memory game Simon, built with HTML, CSS, JavaScript, and jQuery.</p>
-                        <a href="https://alhadwan.github.io/SimonGame/" class="card-link">Live Demo</a>
-                        <a href="https://github.com/alhadwan/SimonGame" class="card-link">GitHub Repo</a>
-                        <br/>
-                        <h5 class="card-title"><strong>Features</strong>
-                          <ol>
+                      </div>
+                      <!-- Project 4 -->
+                      <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm">
+                          <div class="card-body">
+                            <h5 class="card-title"><strong>Simon Game</strong></h5>
+                            <p class="card-text">A web-based version of the classic memory game Simon, built with HTML, CSS, JavaScript, and jQuery.</p>
+                            <a href="https://alhadwan.github.io/SimonGame/" class="card-link">Live Demo</a>
+                            <a href="https://github.com/alhadwan/SimonGame" class="card-link">GitHub</a>
+                            <ul class="mt-3">
                               <li>Interactive memory game with increasing difficulty</li>
                               <li>Sound and flash for each button pressed</li>
                               <li> Game-over screen</li>
                               <li>Game starts with any keypress</li>
-                          </ol>
-                        </h5>
+                            </ul>
+                          </div>
+                        </div>
                       </div>
-                  </div>
-                  <div class="card" style="flex: 0 0 600px;">
-                    <div class="card-body">
-                      <h5 class="card-title"><strong>NoteFlow App</strong> </h5>
-                      <!-- <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6> -->
-                      <p class="card-text">note-taking application inspired by Google Keep. Built with Material-UI, featuring a light/dark mode toggle and animated form behavior.</p>
-                      <a href="https://noteflow-gz2l.onrender.com" class="card-link">Live Demo</a>
-                      <a href="https://github.com/alhadwan/NoteFlow" class="card-link">GitHub Repo</a>
-                      <br/>
-                      <h5 class="card-title"><strong>Features</strong>
-                        <ol>
-                            <li>Add, display and delete notes</li>
+                       <!-- Project 5 -->
+                       <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm">
+                          <div class="card-body">
+                            <h5 class="card-title"><strong>NoteFlow App</strong></h5>
+                            <p class="card-text">A web-based version of the classic memory game Simon, built with HTML, CSS, JavaScript, and jQuery.</p>
+                            <a href="https://noteflow-gz2l.onrender.com" class="card-link">Live Demo</a>
+                            <a href="https://github.com/alhadwan/NoteFlow" class="card-link">GitHub</a>
+                            <ul class="mt-3">
+                              <li>Add, display and delete notes</li>
                             <li>Light/Dark Motivated</li>
                             <li>Responsive UI</li>
                             <li>MUI Cards</li>
-                        </ol>
-                      </h5>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
+                </section>
                     
                 <!-- <h1>CERTIFICATIONS</h1>
                 <ul>
                     <li><p>NONE</p></li>
                 </ul> -->
-                
         </div>
     </section>
-    <section class="footers section">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 m-3">
-            <div class="col-md-4 d-flex align-items-center">
-              <span class="mb-3 mb-md-0 text-body-secondary"><h4>© 2025 Ali Hadwan</h4></span>
-            </div>
+    
+    <section class="footer-section bg-dark text-white mt-5">
+      <footer class="container py-4 d-flex flex-column flex-md-row justify-content-between align-items-center">
         
-            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-              <li class="ms-3"><a class="icon-link icon-link-hover" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="https://www.instagram.com/accounts/login/?next=%2F&source=mobile_nav"><i class="bi bi-instagram fs-3"></i></a></li>
-              <li class="ms-3"><a class="icon-link icon-link-hover" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"><i class="bi bi-twitter fs-3"></i></a></li>
-              <li class="ms-3"><a class="icon-link icon-link-hover" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="https://www.facebook.com/login.php/"><i class="bi bi-facebook fs-3"></i></a></div></li>
-              <li class="ms-3">
-                <a class="icon-link icon-link-hover" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="https://github.com/alhadwan">
-                  <i class="bi bi-github fs-3"></i>
-                </a>
-              </li>
-            </ul>
-          </footer>
-</section>
+        <div class="mb-3 mb-md-0">
+          <h5 class="mb-0">© 2025 Ali Hadwan</h5>
+        </div>
+    
+        <ul class="list-unstyled d-flex mb-0">
+          <li class="ms-3">
+            <a class="text-white" href="https://instagram.com" target="_blank"><i class="bi bi-instagram fs-4"></i></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-white" href="https://twitter.com" target="_blank"><i class="bi bi-twitter fs-4"></i></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-white" href="https://facebook.com" target="_blank"><i class="bi bi-facebook fs-4"></i></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-white" href="https://github.com/alhadwan" target="_blank"><i class="bi bi-github fs-4"></i></a>
+          </li>
+        </ul>
+    
+      </footer>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
